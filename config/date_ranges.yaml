@@ -1,0 +1,83 @@
+# Fiscal years covered by the project
+# Kenya's fiscal year runs July 1 – June 30
+# We label each fiscal year by its starting calendar year for consistency
+
+# Example: FY 2013/14 → label: 2013, start: 2013-07-01, end: 2014-06-30
+
+fiscal_years:
+  - label: 2013
+    start: "2013-07-01"
+    end: "2014-06-30"
+    notes: "First year of devolution under 2010 Constitution"
+
+  - label: 2014
+    start: "2014-07-01"
+    end: "2015-06-30"
+
+  - label: 2015
+    start: "2015-07-01"
+    end: "2016-06-30"
+
+  - label: 2016
+    start: "2016-07-01"
+    end: "2017-06-30"
+
+  - label: 2017
+    start: "2017-07-01"
+    end: "2018-06-30"
+    notes: "Election year — August 2017"
+
+  - label: 2018
+    start: "2018-07-01"
+    end: "2019-06-30"
+
+  - label: 2019
+    start: "2019-07-01"
+    end: "2020-06-30"
+    notes: "COVID-19 hits in March 2020"
+
+  - label: 2020
+    start: "2020-07-01"
+    end: "2021-06-30"
+    notes: "Full COVID fiscal year — tax revenue dip"
+
+  - label: 2021
+    start: "2021-07-01"
+    end: "2022-06-30"
+    notes: "Recovery year + election year (August 2022)"
+
+  - label: 2022
+    start: "2022-07-01"
+    end: "2023-06-30"
+    notes: "New administration takes office"
+
+  - label: 2023
+    start: "2023-07-01"
+    end: "2024-06-30"
+    notes: "Debt crisis deepens — Finance Bill 2024 protests (June 2024)"
+
+  - label: 2024
+    start: "2024-07-01"
+    end: "2025-06-30"
+    notes: "Most recent fiscal year — data may be partial"
+
+# Calendar year mapping for sources that use Jan–Dec
+# Some World Bank / WHO indicators are reported by calendar year
+calendar_year_range:
+  start: 2013
+  end: 2025
+
+# Key events to annotate on time-series charts
+annotations:
+  - year: 2013
+    event: "Devolution begins"
+  - year: 2017
+    event: "General election"
+  - year: 2020
+    event: "COVID-19 pandemic"
+  - year: 2022
+    event: "General election"
+  - year: 2023
+    event: "Debt crisis"
+  - year: 2024
+    event: "Finance Bill protests"

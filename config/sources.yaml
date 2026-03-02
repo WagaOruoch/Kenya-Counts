@@ -1,0 +1,91 @@
+# Data sources — URLs, API endpoints, and scraper settings
+# Referenced by scraper/base.py and individual scrapers
+
+sources:
+
+  # ── KRA Tax Revenue ──────────────────────────────────────
+  kra_revenue:
+    description: "Kenya Revenue Authority — annual tax collection figures"
+    primary_url: "https://www.kra.go.ke/revenue-statistics"
+    fallback_urls:
+      - "https://data.worldbank.org/indicator/GC.TAX.TOTL.CN?locations=KE"
+    format: html  # or pdf depending on year
+    notes: >
+      KRA publishes revenue performance reports annually. Some years
+      are only available as PDF downloads from the statistics page.
+
+  # ── National Treasury Budget ─────────────────────────────
+  treasury_budget:
+    description: "National budget allocations by sector — Budget Policy Statement & estimates"
+    primary_url: "https://www.treasury.go.ke/budget-policy-statement/"
+    fallback_urls:
+      - "https://www.treasury.go.ke/budget-estimates/"
+    format: pdf
+    notes: >
+      Budget Policy Statements and Budget Estimates are published as PDFs.
+      Sector breakdowns require table extraction from multi-page documents.
+
+  # ── Controller of Budget — County Expenditure ────────────
+  cob_expenditure:
+    description: "Actual county government expenditure vs allocation"
+    primary_url: "https://cob.go.ke/reports/county-governments-budget-implementation-review-reports/"
+    fallback_urls: []
+    format: pdf
+    notes: >
+      CoB publishes quarterly and annual county budget implementation
+      review reports. These contain actual expenditure by county.
+      PDF extraction is essential — no API or CSV available.
+
+  # ── KNBS Indicators ──────────────────────────────────────
+  knbs_indicators:
+    description: "Kenya National Bureau of Statistics — health, education, infrastructure"
+    primary_url: "https://www.knbs.or.ke/publications/"
+    fallback_urls:
+      - "https://www.knbs.or.ke/download/statistical-abstract/"
+    format: pdf
+    notes: >
+      The Economic Survey and Statistical Abstract are the primary sources.
+      County-level data is in the Kenya Demographic and Health Survey (KDHS).
+
+  # ── County Revenue Allocation (CRA) ─────────────────────
+  county_allocations:
+    description: "Commission on Revenue Allocation — equitable share per county"
+    primary_url: "https://www.crakenya.org/information/revenue-allocation/"
+    fallback_urls:
+      - "https://cob.go.ke/reports/"
+    format: html  # some years pdf
+    notes: >
+      CRA publishes the equitable share formula parameters and per-county
+      allocations. Cross-reference with CoB reports for actual disbursements.
+
+  # ── Public Debt (CBK / Treasury) ─────────────────────────
+  debt_cbk:
+    description: "Central Bank of Kenya — public debt stock and servicing costs"
+    primary_url: "https://www.centralbank.go.ke/public-debt/"
+    fallback_urls:
+      - "https://data.worldbank.org/indicator/GC.DOD.TOTL.CN?locations=KE"
+    format: html
+    notes: >
+      CBK publishes monthly public debt reports. Treasury also provides
+      debt sustainability analysis documents (PDF). World Bank has
+      annual aggregates as a clean fallback.
+
+  # ── World Bank API (Fallback for KNBS) ───────────────────
+  world_bank_api:
+    description: "World Bank Open Data — same indicators as KNBS, cleaner API access"
+    base_url: "https://api.worldbank.org/v2"
+    country_code: "KE"
+    format: api
+    notes: >
+      Use the `wbgapi` Python package. Provides health, education,
+      poverty, and economic indicators with proper pagination.
+      Preferred over scraping KNBS directly when the same data exists.
+
+# ── Global Settings ────────────────────────────────────────
+settings:
+  rate_limit_seconds: 2          # Minimum delay between requests to same domain
+  max_retries: 3                 # Retry count for failed requests
+  retry_backoff_multiplier: 2    # Exponential backoff multiplier
+  timeout_seconds: 30            # HTTP request timeout
+  user_agent: "KenyaCounts/1.0 (research project; +https://github.com/placeholder/kenya-counts)"
+  cache_dir: "data/raw/.cache"   # Local HTTP cache to avoid re-downloading during development

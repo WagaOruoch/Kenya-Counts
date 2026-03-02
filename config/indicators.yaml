@@ -1,0 +1,212 @@
+# Indicator definitions
+# Each indicator: what it measures, where it comes from, its unit,
+# and whether higher values are better or worse.
+# Used by pipeline/indicators.py and notebooks for consistent labelling.
+
+# ── NATIONAL — Revenue & Budget ──────────────────────────────────
+
+revenue_and_budget:
+
+  - id: tax_revenue_total
+    name: "Total Tax Revenue"
+    unit: "KSh billions"
+    direction: neutral  # more revenue isn't inherently good or bad
+    source: kra_revenue
+    notes: "KRA ordinary revenue collections, excluding AiA"
+
+  - id: budget_total
+    name: "Total National Budget"
+    unit: "KSh billions"
+    direction: neutral
+    source: treasury_budget
+
+  - id: budget_healthcare
+    name: "Healthcare Budget Allocation"
+    unit: "KSh billions"
+    direction: higher_is_better
+    source: treasury_budget
+
+  - id: budget_education
+    name: "Education Budget Allocation"
+    unit: "KSh billions"
+    direction: higher_is_better
+    source: treasury_budget
+
+  - id: budget_infrastructure
+    name: "Infrastructure Budget Allocation"
+    unit: "KSh billions"
+    direction: higher_is_better
+    source: treasury_budget
+
+  - id: expenditure_actual
+    name: "Actual Government Expenditure"
+    unit: "KSh billions"
+    direction: neutral
+    source: treasury_budget
+    notes: "Compared against allocation to compute compliance gap"
+
+  - id: debt_stock
+    name: "Total Public Debt Stock"
+    unit: "KSh billions"
+    direction: lower_is_better
+    source: debt_cbk
+
+  - id: debt_service
+    name: "Annual Debt Servicing Cost"
+    unit: "KSh billions"
+    direction: lower_is_better
+    source: debt_cbk
+    notes: "Interest + principal repayments — competes with service delivery spending"
+
+# ── NATIONAL — Service Delivery Outcomes ─────────────────────────
+
+national_outcomes:
+
+  # Healthcare
+  - id: hospital_beds_per_1000
+    name: "Hospital Beds per 1,000 People"
+    unit: "beds per 1,000"
+    direction: higher_is_better
+    source: knbs_indicators
+
+  - id: maternal_mortality_rate
+    name: "Maternal Mortality Ratio"
+    unit: "deaths per 100,000 live births"
+    direction: lower_is_better
+    source: world_bank_api
+    wb_indicator: "SH.STA.MMRT"
+
+  - id: immunisation_coverage
+    name: "DPT3 Immunisation Coverage"
+    unit: "% of children 12–23 months"
+    direction: higher_is_better
+    source: world_bank_api
+    wb_indicator: "SH.IMM.IDPT"
+
+  # Education
+  - id: primary_enrollment_rate
+    name: "Primary School Net Enrollment Rate"
+    unit: "%"
+    direction: higher_is_better
+    source: world_bank_api
+    wb_indicator: "SE.PRM.NENR"
+
+  - id: primary_completion_rate
+    name: "Primary School Completion Rate"
+    unit: "%"
+    direction: higher_is_better
+    source: world_bank_api
+    wb_indicator: "SE.PRM.CMPT.ZS"
+
+  - id: pupil_teacher_ratio
+    name: "Pupil-to-Teacher Ratio (Primary)"
+    unit: "pupils per teacher"
+    direction: lower_is_better
+    source: world_bank_api
+    wb_indicator: "SE.PRM.ENRL.TC.ZS"
+
+  # Infrastructure
+  - id: paved_road_km
+    name: "Paved Road Network"
+    unit: "km"
+    direction: higher_is_better
+    source: knbs_indicators
+
+  - id: electrification_rate
+    name: "Access to Electricity"
+    unit: "% of population"
+    direction: higher_is_better
+    source: world_bank_api
+    wb_indicator: "EG.ELC.ACCS.ZS"
+
+# ── COUNTY — Allocations & Outcomes ──────────────────────────────
+
+county_indicators:
+
+  - id: equitable_share_allocation
+    name: "Equitable Share Allocation"
+    unit: "KSh millions"
+    direction: neutral
+    source: county_allocations
+    notes: "What CRA formula allocated to each county"
+
+  - id: equitable_share_per_capita
+    name: "Equitable Share per Capita"
+    unit: "KSh per person"
+    direction: neutral
+    source: derived  # computed in pipeline/indicators.py
+    notes: "Allocation divided by county population"
+
+  - id: county_expenditure_actual
+    name: "Actual County Expenditure"
+    unit: "KSh millions"
+    direction: neutral
+    source: cob_expenditure
+    notes: "What the county actually spent — from CoB reports"
+
+  - id: county_absorption_rate
+    name: "Budget Absorption Rate"
+    unit: "%"
+    direction: higher_is_better
+    source: derived
+    notes: "Actual expenditure / allocation — measures spending capacity"
+
+  # Health (county-level)
+  - id: county_hospital_beds_per_1000
+    name: "Hospital Beds per 1,000 (County)"
+    unit: "beds per 1,000"
+    direction: higher_is_better
+    source: knbs_indicators
+
+  - id: county_skilled_birth_attendance
+    name: "Births Attended by Skilled Staff"
+    unit: "%"
+    direction: higher_is_better
+    source: knbs_indicators
+    notes: "From KDHS and county health reports"
+
+  # Education (county-level)
+  - id: county_primary_completion
+    name: "Primary Completion Rate (County)"
+    unit: "%"
+    direction: higher_is_better
+    source: knbs_indicators
+
+  - id: county_pupil_teacher_ratio
+    name: "Pupil-to-Teacher Ratio (County)"
+    unit: "pupils per teacher"
+    direction: lower_is_better
+    source: knbs_indicators
+
+  # Poverty (county-level)
+  - id: county_poverty_headcount
+    name: "Poverty Headcount Rate (County)"
+    unit: "%"
+    direction: lower_is_better
+    source: knbs_indicators
+    notes: "From Kenya Integrated Household Budget Survey (KIHBS)"
+
+  - id: county_household_income
+    name: "Mean Household Income (County)"
+    unit: "KSh per month"
+    direction: higher_is_better
+    source: knbs_indicators
+
+# ── COMPOSITE — Derived Scores ───────────────────────────────────
+
+composite:
+  - id: service_delivery_score
+    name: "Composite Service Delivery Score"
+    unit: "index (0–100)"
+    direction: higher_is_better
+    source: derived
+    components:
+      - county_hospital_beds_per_1000
+      - county_skilled_birth_attendance
+      - county_primary_completion
+      - county_pupil_teacher_ratio
+      - county_poverty_headcount
+    notes: >
+      Methodology defined in METHODOLOGY.md.
+      Normalisation method and weighting to be finalised in Sprint 3
+      after EDA reveals data availability and distribution.

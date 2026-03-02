@@ -1,0 +1,33 @@
+# Kenya Counts — Git Ignore
+
+# ── Python ───────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# ── Jupyter ──────────────────────────
+.ipynb_checkpoints/
+
+# ── Data (keep raw manifest, ignore large files) ────
+data/raw/.cache/
+*.csv.gz
+*.parquet.gz
+
+# ── OS ───────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ──────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Secrets ──────────────────────────
+.env
+*.env
