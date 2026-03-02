@@ -1,0 +1,129 @@
+fiscal_year,county_code,county_name,indicator_id,value,source
+2013/14,047,Nairobi,skilled_birth_attendance,89.2,KDHS 2014
+2013/14,047,Nairobi,poverty_headcount,16.7,KDHS 2014
+2013/14,047,Nairobi,primary_completion,95.0,KDHS 2014
+2013/14,047,Nairobi,pupil_teacher_ratio,35.0,KDHS 2014
+2021/22,047,Nairobi,skilled_birth_attendance,92.5,KDHS 2022
+2021/22,047,Nairobi,poverty_headcount,14.1,KDHS 2022
+2021/22,047,Nairobi,primary_completion,96.2,KDHS 2022
+2021/22,047,Nairobi,pupil_teacher_ratio,32.0,KDHS 2022
+2013/14,001,Mombasa,skilled_birth_attendance,75.5,KDHS 2014
+2013/14,001,Mombasa,poverty_headcount,34.8,KDHS 2014
+2013/14,001,Mombasa,primary_completion,82.0,KDHS 2014
+2013/14,001,Mombasa,pupil_teacher_ratio,42.0,KDHS 2014
+2021/22,001,Mombasa,skilled_birth_attendance,82.1,KDHS 2022
+2021/22,001,Mombasa,poverty_headcount,30.2,KDHS 2022
+2021/22,001,Mombasa,primary_completion,85.5,KDHS 2022
+2021/22,001,Mombasa,pupil_teacher_ratio,38.0,KDHS 2022
+2013/14,023,Turkana,skilled_birth_attendance,17.6,KDHS 2014
+2013/14,023,Turkana,poverty_headcount,79.4,KDHS 2014
+2013/14,023,Turkana,primary_completion,28.0,KDHS 2014
+2013/14,023,Turkana,pupil_teacher_ratio,75.0,KDHS 2014
+2021/22,023,Turkana,skilled_birth_attendance,24.3,KDHS 2022
+2021/22,023,Turkana,poverty_headcount,72.1,KDHS 2022
+2021/22,023,Turkana,primary_completion,35.2,KDHS 2022
+2021/22,023,Turkana,pupil_teacher_ratio,68.0,KDHS 2022
+2013/14,022,Kiambu,skilled_birth_attendance,85.0,KDHS 2014
+2013/14,022,Kiambu,poverty_headcount,24.2,KDHS 2014
+2013/14,022,Kiambu,primary_completion,93.0,KDHS 2014
+2013/14,022,Kiambu,pupil_teacher_ratio,33.0,KDHS 2014
+2021/22,022,Kiambu,skilled_birth_attendance,90.8,KDHS 2022
+2021/22,022,Kiambu,poverty_headcount,18.5,KDHS 2022
+2021/22,022,Kiambu,primary_completion,95.5,KDHS 2022
+2021/22,022,Kiambu,pupil_teacher_ratio,30.0,KDHS 2022
+2013/14,042,Kisumu,skilled_birth_attendance,68.2,KDHS 2014
+2013/14,042,Kisumu,poverty_headcount,40.1,KDHS 2014
+2013/14,042,Kisumu,primary_completion,78.0,KDHS 2014
+2013/14,042,Kisumu,pupil_teacher_ratio,45.0,KDHS 2014
+2021/22,042,Kisumu,skilled_birth_attendance,76.5,KDHS 2022
+2021/22,042,Kisumu,poverty_headcount,34.0,KDHS 2022
+2021/22,042,Kisumu,primary_completion,83.0,KDHS 2022
+2021/22,042,Kisumu,pupil_teacher_ratio,40.0,KDHS 2022
+2013/14,007,Garissa,skilled_birth_attendance,18.9,KDHS 2014
+2013/14,007,Garissa,poverty_headcount,65.5,KDHS 2014
+2013/14,007,Garissa,primary_completion,32.0,KDHS 2014
+2013/14,007,Garissa,pupil_teacher_ratio,70.0,KDHS 2014
+2021/22,007,Garissa,skilled_birth_attendance,28.5,KDHS 2022
+2021/22,007,Garissa,poverty_headcount,58.2,KDHS 2022
+2021/22,007,Garissa,primary_completion,40.0,KDHS 2022
+2021/22,007,Garissa,pupil_teacher_ratio,62.0,KDHS 2022
+2013/14,009,Mandera,skilled_birth_attendance,11.2,KDHS 2014
+2013/14,009,Mandera,poverty_headcount,85.8,KDHS 2014
+2013/14,009,Mandera,primary_completion,18.0,KDHS 2014
+2013/14,009,Mandera,pupil_teacher_ratio,85.0,KDHS 2014
+2021/22,009,Mandera,skilled_birth_attendance,18.0,KDHS 2022
+2021/22,009,Mandera,poverty_headcount,78.5,KDHS 2022
+2021/22,009,Mandera,primary_completion,25.5,KDHS 2022
+2021/22,009,Mandera,pupil_teacher_ratio,78.0,KDHS 2022
+2013/14,032,Nakuru,skilled_birth_attendance,72.0,KDHS 2014
+2013/14,032,Nakuru,poverty_headcount,32.0,KDHS 2014
+2013/14,032,Nakuru,primary_completion,85.0,KDHS 2014
+2013/14,032,Nakuru,pupil_teacher_ratio,38.0,KDHS 2014
+2021/22,032,Nakuru,skilled_birth_attendance,81.0,KDHS 2022
+2021/22,032,Nakuru,poverty_headcount,26.5,KDHS 2022
+2021/22,032,Nakuru,primary_completion,89.0,KDHS 2022
+2021/22,032,Nakuru,pupil_teacher_ratio,34.0,KDHS 2022
+2013/14,008,Wajir,skilled_birth_attendance,12.5,KDHS 2014
+2013/14,008,Wajir,poverty_headcount,84.2,KDHS 2014
+2013/14,008,Wajir,primary_completion,20.0,KDHS 2014
+2013/14,008,Wajir,pupil_teacher_ratio,82.0,KDHS 2014
+2021/22,008,Wajir,skilled_birth_attendance,19.5,KDHS 2022
+2021/22,008,Wajir,poverty_headcount,76.0,KDHS 2022
+2021/22,008,Wajir,primary_completion,28.0,KDHS 2022
+2021/22,008,Wajir,pupil_teacher_ratio,74.0,KDHS 2022
+2013/14,019,Nyeri,skilled_birth_attendance,88.5,KDHS 2014
+2013/14,019,Nyeri,poverty_headcount,19.3,KDHS 2014
+2013/14,019,Nyeri,primary_completion,94.0,KDHS 2014
+2013/14,019,Nyeri,pupil_teacher_ratio,30.0,KDHS 2014
+2021/22,019,Nyeri,skilled_birth_attendance,93.0,KDHS 2022
+2021/22,019,Nyeri,poverty_headcount,15.0,KDHS 2022
+2021/22,019,Nyeri,primary_completion,96.0,KDHS 2022
+2021/22,019,Nyeri,pupil_teacher_ratio,28.0,KDHS 2022
+2013/14,037,Kakamega,skilled_birth_attendance,52.0,KDHS 2014
+2013/14,037,Kakamega,poverty_headcount,49.2,KDHS 2014
+2013/14,037,Kakamega,primary_completion,72.0,KDHS 2014
+2013/14,037,Kakamega,pupil_teacher_ratio,52.0,KDHS 2014
+2021/22,037,Kakamega,skilled_birth_attendance,60.5,KDHS 2022
+2021/22,037,Kakamega,poverty_headcount,42.0,KDHS 2022
+2021/22,037,Kakamega,primary_completion,78.0,KDHS 2022
+2021/22,037,Kakamega,pupil_teacher_ratio,46.0,KDHS 2022
+2013/14,010,Marsabit,skilled_birth_attendance,19.0,KDHS 2014
+2013/14,010,Marsabit,poverty_headcount,75.8,KDHS 2014
+2013/14,010,Marsabit,primary_completion,30.0,KDHS 2014
+2013/14,010,Marsabit,pupil_teacher_ratio,72.0,KDHS 2014
+2021/22,010,Marsabit,skilled_birth_attendance,30.2,KDHS 2022
+2021/22,010,Marsabit,poverty_headcount,68.0,KDHS 2022
+2021/22,010,Marsabit,primary_completion,38.5,KDHS 2022
+2021/22,010,Marsabit,pupil_teacher_ratio,65.0,KDHS 2022
+2013/14,003,Kilifi,skilled_birth_attendance,50.2,KDHS 2014
+2013/14,003,Kilifi,poverty_headcount,62.1,KDHS 2014
+2013/14,003,Kilifi,primary_completion,58.0,KDHS 2014
+2013/14,003,Kilifi,pupil_teacher_ratio,55.0,KDHS 2014
+2021/22,003,Kilifi,skilled_birth_attendance,58.0,KDHS 2022
+2021/22,003,Kilifi,poverty_headcount,54.8,KDHS 2022
+2021/22,003,Kilifi,primary_completion,65.0,KDHS 2022
+2021/22,003,Kilifi,pupil_teacher_ratio,48.0,KDHS 2022
+2012/13,,National,hospital_beds_per_1000,1.4,KNBS Economic Survey
+2013/14,,National,hospital_beds_per_1000,1.4,KNBS Economic Survey
+2014/15,,National,hospital_beds_per_1000,1.5,KNBS Economic Survey
+2015/16,,National,hospital_beds_per_1000,1.5,KNBS Economic Survey
+2016/17,,National,hospital_beds_per_1000,1.6,KNBS Economic Survey
+2017/18,,National,hospital_beds_per_1000,1.6,KNBS Economic Survey
+2018/19,,National,hospital_beds_per_1000,1.7,KNBS Economic Survey
+2019/20,,National,hospital_beds_per_1000,1.8,KNBS Economic Survey
+2020/21,,National,hospital_beds_per_1000,1.8,KNBS Economic Survey
+2021/22,,National,hospital_beds_per_1000,1.8,KNBS Economic Survey
+2022/23,,National,hospital_beds_per_1000,1.9,KNBS Economic Survey
+2023/24,,National,hospital_beds_per_1000,1.9,KNBS Economic Survey
+2012/13,,National,paved_road_km,11796.0,KNBS Economic Survey
+2013/14,,National,paved_road_km,12200.0,KNBS Economic Survey
+2014/15,,National,paved_road_km,13500.0,KNBS Economic Survey
+2015/16,,National,paved_road_km,14200.0,KNBS Economic Survey
+2016/17,,National,paved_road_km,14800.0,KNBS Economic Survey
+2017/18,,National,paved_road_km,15500.0,KNBS Economic Survey
+2018/19,,National,paved_road_km,16100.0,KNBS Economic Survey
+2019/20,,National,paved_road_km,16600.0,KNBS Economic Survey
+2020/21,,National,paved_road_km,17100.0,KNBS Economic Survey
+2021/22,,National,paved_road_km,17800.0,KNBS Economic Survey
+2022/23,,National,paved_road_km,18400.0,KNBS Economic Survey
+2023/24,,National,paved_road_km,19000.0,KNBS Economic Survey

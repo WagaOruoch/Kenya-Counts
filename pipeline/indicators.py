@@ -166,11 +166,12 @@ def enrich_county(df: pd.DataFrame) -> pd.DataFrame:
 
 COMPOSITE_COMPONENTS = [
     # (column_name_in_county_panel, direction)
-    ("ind_county_skilled_birth_attendance", "higher_is_better"),
-    ("ind_county_primary_completion", "higher_is_better"),
-    ("ind_county_pupil_teacher_ratio", "lower_is_better"),
-    ("ind_county_poverty_headcount", "lower_is_better"),
-    # ind_county_hospital_beds_per_1000 if available
+    # After pivot, KNBS indicator columns are named ind_{indicator_id}
+    ("ind_skilled_birth_attendance", "higher_is_better"),
+    ("ind_primary_completion", "higher_is_better"),
+    ("ind_pupil_teacher_ratio", "lower_is_better"),
+    ("ind_poverty_headcount", "lower_is_better"),
+    # ind_hospital_beds_per_1000 if available at county level
 ]
 
 

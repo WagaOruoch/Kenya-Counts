@@ -55,16 +55,16 @@ Development is broken into 8 sprints. Each sprint delivers something testable be
 
 ---
 
-## Sprint 3 — Exploratory Analysis (4–5 days)
+## Sprint 3 — Exploratory Analysis (4–5 days) ✅
 **Goal:** Understand what the data actually says before telling the story.
 
-- [ ] `00_data_profile.ipynb` — shape, completeness, distributions, correlations
-- [ ] `01_eda_national.ipynb` — national revenue trends, budget vs expenditure, debt burden, sector spending
-- [ ] `02_eda_counties.ipynb` — equitable share per capita, county outcome distributions, outliers, clustering
-- [ ] Document surprises, gaps, and limitations
-- [ ] Finalise `METHODOLOGY.md` — lock in composite score method based on data availability
+- [x] `00_data_profile.ipynb` — shape, completeness, distributions, correlations
+- [x] `01_eda_national.ipynb` — national revenue trends, budget vs expenditure, debt burden, sector spending
+- [x] `02_eda_counties.ipynb` — equitable share per capita, county outcome distributions, outliers, clustering
+- [x] Document surprises, gaps, and limitations
+- [x] Finalise `METHODOLOGY.md` — lock in composite score method based on data availability
 
-**Deliverable:** Four completed notebooks. Methodology finalised.
+**Deliverable:** Three completed notebooks. Methodology finalised.
 
 ---
 

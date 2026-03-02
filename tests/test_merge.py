@@ -117,10 +117,10 @@ class TestCompositeScore:
             "fiscal_year": ["2013/14", "2013/14"],
             "county_code": ["001", "002"],
             "county_name": ["Mombasa", "Kwale"],
-            "ind_county_skilled_birth_attendance": [80.0, 40.0],
-            "ind_county_primary_completion": [90.0, 60.0],
-            "ind_county_pupil_teacher_ratio": [30.0, 60.0],
-            "ind_county_poverty_headcount": [20.0, 50.0],
+            "ind_skilled_birth_attendance": [80.0, 40.0],
+            "ind_primary_completion": [90.0, 60.0],
+            "ind_pupil_teacher_ratio": [30.0, 60.0],
+            "ind_poverty_headcount": [20.0, 50.0],
         })
         result = compute_composite_score(df)
         assert "service_delivery_score" in result.columns

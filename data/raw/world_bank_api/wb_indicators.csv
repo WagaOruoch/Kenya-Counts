@@ -1,0 +1,169 @@
+indicator_id,indicator_name,wb_code,year,value,source_url
+maternal_mortality_rate,Maternal Mortality Ratio,SH.STA.MMRT,2013,,https://api.worldbank.org/v2/country/KE/indicator/SH.STA.MMRT
+maternal_mortality_rate,Maternal Mortality Ratio,SH.STA.MMRT,2014,,https://api.worldbank.org/v2/country/KE/indicator/SH.STA.MMRT
+maternal_mortality_rate,Maternal Mortality Ratio,SH.STA.MMRT,2015,,https://api.worldbank.org/v2/country/KE/indicator/SH.STA.MMRT
+maternal_mortality_rate,Maternal Mortality Ratio,SH.STA.MMRT,2016,,https://api.worldbank.org/v2/country/KE/indicator/SH.STA.MMRT
+maternal_mortality_rate,Maternal Mortality Ratio,SH.STA.MMRT,2017,,https://api.worldbank.org/v2/country/KE/indicator/SH.STA.MMRT
+maternal_mortality_rate,Maternal Mortality Ratio,SH.STA.MMRT,2018,,https://api.worldbank.org/v2/country/KE/indicator/SH.STA.MMRT
+maternal_mortality_rate,Maternal Mortality Ratio,SH.STA.MMRT,2019,,https://api.worldbank.org/v2/country/KE/indicator/SH.STA.MMRT
+maternal_mortality_rate,Maternal Mortality Ratio,SH.STA.MMRT,2020,,https://api.worldbank.org/v2/country/KE/indicator/SH.STA.MMRT
+maternal_mortality_rate,Maternal Mortality Ratio,SH.STA.MMRT,2021,,https://api.worldbank.org/v2/country/KE/indicator/SH.STA.MMRT
+maternal_mortality_rate,Maternal Mortality Ratio,SH.STA.MMRT,2022,,https://api.worldbank.org/v2/country/KE/indicator/SH.STA.MMRT
+maternal_mortality_rate,Maternal Mortality Ratio,SH.STA.MMRT,2023,,https://api.worldbank.org/v2/country/KE/indicator/SH.STA.MMRT
+maternal_mortality_rate,Maternal Mortality Ratio,SH.STA.MMRT,2024,,https://api.worldbank.org/v2/country/KE/indicator/SH.STA.MMRT
+immunisation_coverage,DPT3 Immunisation Coverage,SH.IMM.IDPT,2013,,https://api.worldbank.org/v2/country/KE/indicator/SH.IMM.IDPT
+immunisation_coverage,DPT3 Immunisation Coverage,SH.IMM.IDPT,2014,,https://api.worldbank.org/v2/country/KE/indicator/SH.IMM.IDPT
+immunisation_coverage,DPT3 Immunisation Coverage,SH.IMM.IDPT,2015,,https://api.worldbank.org/v2/country/KE/indicator/SH.IMM.IDPT
+immunisation_coverage,DPT3 Immunisation Coverage,SH.IMM.IDPT,2016,,https://api.worldbank.org/v2/country/KE/indicator/SH.IMM.IDPT
+immunisation_coverage,DPT3 Immunisation Coverage,SH.IMM.IDPT,2017,,https://api.worldbank.org/v2/country/KE/indicator/SH.IMM.IDPT
+immunisation_coverage,DPT3 Immunisation Coverage,SH.IMM.IDPT,2018,,https://api.worldbank.org/v2/country/KE/indicator/SH.IMM.IDPT
+immunisation_coverage,DPT3 Immunisation Coverage,SH.IMM.IDPT,2019,,https://api.worldbank.org/v2/country/KE/indicator/SH.IMM.IDPT
+immunisation_coverage,DPT3 Immunisation Coverage,SH.IMM.IDPT,2020,,https://api.worldbank.org/v2/country/KE/indicator/SH.IMM.IDPT
+immunisation_coverage,DPT3 Immunisation Coverage,SH.IMM.IDPT,2021,,https://api.worldbank.org/v2/country/KE/indicator/SH.IMM.IDPT
+immunisation_coverage,DPT3 Immunisation Coverage,SH.IMM.IDPT,2022,,https://api.worldbank.org/v2/country/KE/indicator/SH.IMM.IDPT
+immunisation_coverage,DPT3 Immunisation Coverage,SH.IMM.IDPT,2023,,https://api.worldbank.org/v2/country/KE/indicator/SH.IMM.IDPT
+immunisation_coverage,DPT3 Immunisation Coverage,SH.IMM.IDPT,2024,,https://api.worldbank.org/v2/country/KE/indicator/SH.IMM.IDPT
+primary_enrollment_rate,Primary School Net Enrollment Rate,SE.PRM.NENR,2013,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.NENR
+primary_enrollment_rate,Primary School Net Enrollment Rate,SE.PRM.NENR,2014,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.NENR
+primary_enrollment_rate,Primary School Net Enrollment Rate,SE.PRM.NENR,2015,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.NENR
+primary_enrollment_rate,Primary School Net Enrollment Rate,SE.PRM.NENR,2016,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.NENR
+primary_enrollment_rate,Primary School Net Enrollment Rate,SE.PRM.NENR,2017,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.NENR
+primary_enrollment_rate,Primary School Net Enrollment Rate,SE.PRM.NENR,2018,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.NENR
+primary_enrollment_rate,Primary School Net Enrollment Rate,SE.PRM.NENR,2019,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.NENR
+primary_enrollment_rate,Primary School Net Enrollment Rate,SE.PRM.NENR,2020,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.NENR
+primary_enrollment_rate,Primary School Net Enrollment Rate,SE.PRM.NENR,2021,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.NENR
+primary_enrollment_rate,Primary School Net Enrollment Rate,SE.PRM.NENR,2022,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.NENR
+primary_enrollment_rate,Primary School Net Enrollment Rate,SE.PRM.NENR,2023,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.NENR
+primary_enrollment_rate,Primary School Net Enrollment Rate,SE.PRM.NENR,2024,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.NENR
+primary_completion_rate,Primary School Completion Rate,SE.PRM.CMPT.ZS,2013,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.CMPT.ZS
+primary_completion_rate,Primary School Completion Rate,SE.PRM.CMPT.ZS,2014,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.CMPT.ZS
+primary_completion_rate,Primary School Completion Rate,SE.PRM.CMPT.ZS,2015,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.CMPT.ZS
+primary_completion_rate,Primary School Completion Rate,SE.PRM.CMPT.ZS,2016,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.CMPT.ZS
+primary_completion_rate,Primary School Completion Rate,SE.PRM.CMPT.ZS,2017,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.CMPT.ZS
+primary_completion_rate,Primary School Completion Rate,SE.PRM.CMPT.ZS,2018,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.CMPT.ZS
+primary_completion_rate,Primary School Completion Rate,SE.PRM.CMPT.ZS,2019,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.CMPT.ZS
+primary_completion_rate,Primary School Completion Rate,SE.PRM.CMPT.ZS,2020,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.CMPT.ZS
+primary_completion_rate,Primary School Completion Rate,SE.PRM.CMPT.ZS,2021,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.CMPT.ZS
+primary_completion_rate,Primary School Completion Rate,SE.PRM.CMPT.ZS,2022,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.CMPT.ZS
+primary_completion_rate,Primary School Completion Rate,SE.PRM.CMPT.ZS,2023,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.CMPT.ZS
+primary_completion_rate,Primary School Completion Rate,SE.PRM.CMPT.ZS,2024,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.CMPT.ZS
+pupil_teacher_ratio,Pupil-to-Teacher Ratio (Primary),SE.PRM.ENRL.TC.ZS,2013,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.ENRL.TC.ZS
+pupil_teacher_ratio,Pupil-to-Teacher Ratio (Primary),SE.PRM.ENRL.TC.ZS,2014,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.ENRL.TC.ZS
+pupil_teacher_ratio,Pupil-to-Teacher Ratio (Primary),SE.PRM.ENRL.TC.ZS,2015,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.ENRL.TC.ZS
+pupil_teacher_ratio,Pupil-to-Teacher Ratio (Primary),SE.PRM.ENRL.TC.ZS,2016,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.ENRL.TC.ZS
+pupil_teacher_ratio,Pupil-to-Teacher Ratio (Primary),SE.PRM.ENRL.TC.ZS,2017,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.ENRL.TC.ZS
+pupil_teacher_ratio,Pupil-to-Teacher Ratio (Primary),SE.PRM.ENRL.TC.ZS,2018,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.ENRL.TC.ZS
+pupil_teacher_ratio,Pupil-to-Teacher Ratio (Primary),SE.PRM.ENRL.TC.ZS,2019,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.ENRL.TC.ZS
+pupil_teacher_ratio,Pupil-to-Teacher Ratio (Primary),SE.PRM.ENRL.TC.ZS,2020,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.ENRL.TC.ZS
+pupil_teacher_ratio,Pupil-to-Teacher Ratio (Primary),SE.PRM.ENRL.TC.ZS,2021,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.ENRL.TC.ZS
+pupil_teacher_ratio,Pupil-to-Teacher Ratio (Primary),SE.PRM.ENRL.TC.ZS,2022,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.ENRL.TC.ZS
+pupil_teacher_ratio,Pupil-to-Teacher Ratio (Primary),SE.PRM.ENRL.TC.ZS,2023,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.ENRL.TC.ZS
+pupil_teacher_ratio,Pupil-to-Teacher Ratio (Primary),SE.PRM.ENRL.TC.ZS,2024,,https://api.worldbank.org/v2/country/KE/indicator/SE.PRM.ENRL.TC.ZS
+electrification_rate,Access to Electricity,EG.ELC.ACCS.ZS,2013,,https://api.worldbank.org/v2/country/KE/indicator/EG.ELC.ACCS.ZS
+electrification_rate,Access to Electricity,EG.ELC.ACCS.ZS,2014,,https://api.worldbank.org/v2/country/KE/indicator/EG.ELC.ACCS.ZS
+electrification_rate,Access to Electricity,EG.ELC.ACCS.ZS,2015,,https://api.worldbank.org/v2/country/KE/indicator/EG.ELC.ACCS.ZS
+electrification_rate,Access to Electricity,EG.ELC.ACCS.ZS,2016,,https://api.worldbank.org/v2/country/KE/indicator/EG.ELC.ACCS.ZS
+electrification_rate,Access to Electricity,EG.ELC.ACCS.ZS,2017,,https://api.worldbank.org/v2/country/KE/indicator/EG.ELC.ACCS.ZS
+electrification_rate,Access to Electricity,EG.ELC.ACCS.ZS,2018,,https://api.worldbank.org/v2/country/KE/indicator/EG.ELC.ACCS.ZS
+electrification_rate,Access to Electricity,EG.ELC.ACCS.ZS,2019,,https://api.worldbank.org/v2/country/KE/indicator/EG.ELC.ACCS.ZS
+electrification_rate,Access to Electricity,EG.ELC.ACCS.ZS,2020,,https://api.worldbank.org/v2/country/KE/indicator/EG.ELC.ACCS.ZS
+electrification_rate,Access to Electricity,EG.ELC.ACCS.ZS,2021,,https://api.worldbank.org/v2/country/KE/indicator/EG.ELC.ACCS.ZS
+electrification_rate,Access to Electricity,EG.ELC.ACCS.ZS,2022,,https://api.worldbank.org/v2/country/KE/indicator/EG.ELC.ACCS.ZS
+electrification_rate,Access to Electricity,EG.ELC.ACCS.ZS,2023,,https://api.worldbank.org/v2/country/KE/indicator/EG.ELC.ACCS.ZS
+electrification_rate,Access to Electricity,EG.ELC.ACCS.ZS,2024,,https://api.worldbank.org/v2/country/KE/indicator/EG.ELC.ACCS.ZS
+gdp_current,GDP (current LCU),NY.GDP.MKTP.CN,2013,,https://api.worldbank.org/v2/country/KE/indicator/NY.GDP.MKTP.CN
+gdp_current,GDP (current LCU),NY.GDP.MKTP.CN,2014,,https://api.worldbank.org/v2/country/KE/indicator/NY.GDP.MKTP.CN
+gdp_current,GDP (current LCU),NY.GDP.MKTP.CN,2015,,https://api.worldbank.org/v2/country/KE/indicator/NY.GDP.MKTP.CN
+gdp_current,GDP (current LCU),NY.GDP.MKTP.CN,2016,,https://api.worldbank.org/v2/country/KE/indicator/NY.GDP.MKTP.CN
+gdp_current,GDP (current LCU),NY.GDP.MKTP.CN,2017,,https://api.worldbank.org/v2/country/KE/indicator/NY.GDP.MKTP.CN
+gdp_current,GDP (current LCU),NY.GDP.MKTP.CN,2018,,https://api.worldbank.org/v2/country/KE/indicator/NY.GDP.MKTP.CN
+gdp_current,GDP (current LCU),NY.GDP.MKTP.CN,2019,,https://api.worldbank.org/v2/country/KE/indicator/NY.GDP.MKTP.CN
+gdp_current,GDP (current LCU),NY.GDP.MKTP.CN,2020,,https://api.worldbank.org/v2/country/KE/indicator/NY.GDP.MKTP.CN
+gdp_current,GDP (current LCU),NY.GDP.MKTP.CN,2021,,https://api.worldbank.org/v2/country/KE/indicator/NY.GDP.MKTP.CN
+gdp_current,GDP (current LCU),NY.GDP.MKTP.CN,2022,,https://api.worldbank.org/v2/country/KE/indicator/NY.GDP.MKTP.CN
+gdp_current,GDP (current LCU),NY.GDP.MKTP.CN,2023,,https://api.worldbank.org/v2/country/KE/indicator/NY.GDP.MKTP.CN
+gdp_current,GDP (current LCU),NY.GDP.MKTP.CN,2024,,https://api.worldbank.org/v2/country/KE/indicator/NY.GDP.MKTP.CN
+population,Total Population,SP.POP.TOTL,2013,,https://api.worldbank.org/v2/country/KE/indicator/SP.POP.TOTL
+population,Total Population,SP.POP.TOTL,2014,,https://api.worldbank.org/v2/country/KE/indicator/SP.POP.TOTL
+population,Total Population,SP.POP.TOTL,2015,,https://api.worldbank.org/v2/country/KE/indicator/SP.POP.TOTL
+population,Total Population,SP.POP.TOTL,2016,,https://api.worldbank.org/v2/country/KE/indicator/SP.POP.TOTL
+population,Total Population,SP.POP.TOTL,2017,,https://api.worldbank.org/v2/country/KE/indicator/SP.POP.TOTL
+population,Total Population,SP.POP.TOTL,2018,,https://api.worldbank.org/v2/country/KE/indicator/SP.POP.TOTL
+population,Total Population,SP.POP.TOTL,2019,,https://api.worldbank.org/v2/country/KE/indicator/SP.POP.TOTL
+population,Total Population,SP.POP.TOTL,2020,,https://api.worldbank.org/v2/country/KE/indicator/SP.POP.TOTL
+population,Total Population,SP.POP.TOTL,2021,,https://api.worldbank.org/v2/country/KE/indicator/SP.POP.TOTL
+population,Total Population,SP.POP.TOTL,2022,,https://api.worldbank.org/v2/country/KE/indicator/SP.POP.TOTL
+population,Total Population,SP.POP.TOTL,2023,,https://api.worldbank.org/v2/country/KE/indicator/SP.POP.TOTL
+population,Total Population,SP.POP.TOTL,2024,,https://api.worldbank.org/v2/country/KE/indicator/SP.POP.TOTL
+gni_per_capita,GNI per Capita (USD),NY.GNP.PCAP.CD,2013,,https://api.worldbank.org/v2/country/KE/indicator/NY.GNP.PCAP.CD
+gni_per_capita,GNI per Capita (USD),NY.GNP.PCAP.CD,2014,,https://api.worldbank.org/v2/country/KE/indicator/NY.GNP.PCAP.CD
+gni_per_capita,GNI per Capita (USD),NY.GNP.PCAP.CD,2015,,https://api.worldbank.org/v2/country/KE/indicator/NY.GNP.PCAP.CD
+gni_per_capita,GNI per Capita (USD),NY.GNP.PCAP.CD,2016,,https://api.worldbank.org/v2/country/KE/indicator/NY.GNP.PCAP.CD
+gni_per_capita,GNI per Capita (USD),NY.GNP.PCAP.CD,2017,,https://api.worldbank.org/v2/country/KE/indicator/NY.GNP.PCAP.CD
+gni_per_capita,GNI per Capita (USD),NY.GNP.PCAP.CD,2018,,https://api.worldbank.org/v2/country/KE/indicator/NY.GNP.PCAP.CD
+gni_per_capita,GNI per Capita (USD),NY.GNP.PCAP.CD,2019,,https://api.worldbank.org/v2/country/KE/indicator/NY.GNP.PCAP.CD
+gni_per_capita,GNI per Capita (USD),NY.GNP.PCAP.CD,2020,,https://api.worldbank.org/v2/country/KE/indicator/NY.GNP.PCAP.CD
+gni_per_capita,GNI per Capita (USD),NY.GNP.PCAP.CD,2021,,https://api.worldbank.org/v2/country/KE/indicator/NY.GNP.PCAP.CD
+gni_per_capita,GNI per Capita (USD),NY.GNP.PCAP.CD,2022,,https://api.worldbank.org/v2/country/KE/indicator/NY.GNP.PCAP.CD
+gni_per_capita,GNI per Capita (USD),NY.GNP.PCAP.CD,2023,,https://api.worldbank.org/v2/country/KE/indicator/NY.GNP.PCAP.CD
+gni_per_capita,GNI per Capita (USD),NY.GNP.PCAP.CD,2024,,https://api.worldbank.org/v2/country/KE/indicator/NY.GNP.PCAP.CD
+life_expectancy,Life Expectancy at Birth,SP.DYN.LE00.IN,2013,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.LE00.IN
+life_expectancy,Life Expectancy at Birth,SP.DYN.LE00.IN,2014,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.LE00.IN
+life_expectancy,Life Expectancy at Birth,SP.DYN.LE00.IN,2015,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.LE00.IN
+life_expectancy,Life Expectancy at Birth,SP.DYN.LE00.IN,2016,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.LE00.IN
+life_expectancy,Life Expectancy at Birth,SP.DYN.LE00.IN,2017,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.LE00.IN
+life_expectancy,Life Expectancy at Birth,SP.DYN.LE00.IN,2018,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.LE00.IN
+life_expectancy,Life Expectancy at Birth,SP.DYN.LE00.IN,2019,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.LE00.IN
+life_expectancy,Life Expectancy at Birth,SP.DYN.LE00.IN,2020,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.LE00.IN
+life_expectancy,Life Expectancy at Birth,SP.DYN.LE00.IN,2021,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.LE00.IN
+life_expectancy,Life Expectancy at Birth,SP.DYN.LE00.IN,2022,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.LE00.IN
+life_expectancy,Life Expectancy at Birth,SP.DYN.LE00.IN,2023,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.LE00.IN
+life_expectancy,Life Expectancy at Birth,SP.DYN.LE00.IN,2024,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.LE00.IN
+infant_mortality,Infant Mortality Rate,SP.DYN.IMRT.IN,2013,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.IMRT.IN
+infant_mortality,Infant Mortality Rate,SP.DYN.IMRT.IN,2014,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.IMRT.IN
+infant_mortality,Infant Mortality Rate,SP.DYN.IMRT.IN,2015,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.IMRT.IN
+infant_mortality,Infant Mortality Rate,SP.DYN.IMRT.IN,2016,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.IMRT.IN
+infant_mortality,Infant Mortality Rate,SP.DYN.IMRT.IN,2017,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.IMRT.IN
+infant_mortality,Infant Mortality Rate,SP.DYN.IMRT.IN,2018,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.IMRT.IN
+infant_mortality,Infant Mortality Rate,SP.DYN.IMRT.IN,2019,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.IMRT.IN
+infant_mortality,Infant Mortality Rate,SP.DYN.IMRT.IN,2020,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.IMRT.IN
+infant_mortality,Infant Mortality Rate,SP.DYN.IMRT.IN,2021,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.IMRT.IN
+infant_mortality,Infant Mortality Rate,SP.DYN.IMRT.IN,2022,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.IMRT.IN
+infant_mortality,Infant Mortality Rate,SP.DYN.IMRT.IN,2023,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.IMRT.IN
+infant_mortality,Infant Mortality Rate,SP.DYN.IMRT.IN,2024,,https://api.worldbank.org/v2/country/KE/indicator/SP.DYN.IMRT.IN
+tax_revenue_pct_gdp,Tax Revenue (% of GDP),GC.TAX.TOTL.GD.ZS,2013,,https://api.worldbank.org/v2/country/KE/indicator/GC.TAX.TOTL.GD.ZS
+tax_revenue_pct_gdp,Tax Revenue (% of GDP),GC.TAX.TOTL.GD.ZS,2014,,https://api.worldbank.org/v2/country/KE/indicator/GC.TAX.TOTL.GD.ZS
+tax_revenue_pct_gdp,Tax Revenue (% of GDP),GC.TAX.TOTL.GD.ZS,2015,,https://api.worldbank.org/v2/country/KE/indicator/GC.TAX.TOTL.GD.ZS
+tax_revenue_pct_gdp,Tax Revenue (% of GDP),GC.TAX.TOTL.GD.ZS,2016,,https://api.worldbank.org/v2/country/KE/indicator/GC.TAX.TOTL.GD.ZS
+tax_revenue_pct_gdp,Tax Revenue (% of GDP),GC.TAX.TOTL.GD.ZS,2017,,https://api.worldbank.org/v2/country/KE/indicator/GC.TAX.TOTL.GD.ZS
+tax_revenue_pct_gdp,Tax Revenue (% of GDP),GC.TAX.TOTL.GD.ZS,2018,,https://api.worldbank.org/v2/country/KE/indicator/GC.TAX.TOTL.GD.ZS
+tax_revenue_pct_gdp,Tax Revenue (% of GDP),GC.TAX.TOTL.GD.ZS,2019,,https://api.worldbank.org/v2/country/KE/indicator/GC.TAX.TOTL.GD.ZS
+tax_revenue_pct_gdp,Tax Revenue (% of GDP),GC.TAX.TOTL.GD.ZS,2020,,https://api.worldbank.org/v2/country/KE/indicator/GC.TAX.TOTL.GD.ZS
+tax_revenue_pct_gdp,Tax Revenue (% of GDP),GC.TAX.TOTL.GD.ZS,2021,,https://api.worldbank.org/v2/country/KE/indicator/GC.TAX.TOTL.GD.ZS
+tax_revenue_pct_gdp,Tax Revenue (% of GDP),GC.TAX.TOTL.GD.ZS,2022,,https://api.worldbank.org/v2/country/KE/indicator/GC.TAX.TOTL.GD.ZS
+tax_revenue_pct_gdp,Tax Revenue (% of GDP),GC.TAX.TOTL.GD.ZS,2023,,https://api.worldbank.org/v2/country/KE/indicator/GC.TAX.TOTL.GD.ZS
+tax_revenue_pct_gdp,Tax Revenue (% of GDP),GC.TAX.TOTL.GD.ZS,2024,,https://api.worldbank.org/v2/country/KE/indicator/GC.TAX.TOTL.GD.ZS
+govt_expenditure_pct_gdp,Government Expenditure (% of GDP),GC.XPN.TOTL.GD.ZS,2013,,https://api.worldbank.org/v2/country/KE/indicator/GC.XPN.TOTL.GD.ZS
+govt_expenditure_pct_gdp,Government Expenditure (% of GDP),GC.XPN.TOTL.GD.ZS,2014,,https://api.worldbank.org/v2/country/KE/indicator/GC.XPN.TOTL.GD.ZS
+govt_expenditure_pct_gdp,Government Expenditure (% of GDP),GC.XPN.TOTL.GD.ZS,2015,,https://api.worldbank.org/v2/country/KE/indicator/GC.XPN.TOTL.GD.ZS
+govt_expenditure_pct_gdp,Government Expenditure (% of GDP),GC.XPN.TOTL.GD.ZS,2016,,https://api.worldbank.org/v2/country/KE/indicator/GC.XPN.TOTL.GD.ZS
+govt_expenditure_pct_gdp,Government Expenditure (% of GDP),GC.XPN.TOTL.GD.ZS,2017,,https://api.worldbank.org/v2/country/KE/indicator/GC.XPN.TOTL.GD.ZS
+govt_expenditure_pct_gdp,Government Expenditure (% of GDP),GC.XPN.TOTL.GD.ZS,2018,,https://api.worldbank.org/v2/country/KE/indicator/GC.XPN.TOTL.GD.ZS
+govt_expenditure_pct_gdp,Government Expenditure (% of GDP),GC.XPN.TOTL.GD.ZS,2019,,https://api.worldbank.org/v2/country/KE/indicator/GC.XPN.TOTL.GD.ZS
+govt_expenditure_pct_gdp,Government Expenditure (% of GDP),GC.XPN.TOTL.GD.ZS,2020,,https://api.worldbank.org/v2/country/KE/indicator/GC.XPN.TOTL.GD.ZS
+govt_expenditure_pct_gdp,Government Expenditure (% of GDP),GC.XPN.TOTL.GD.ZS,2021,,https://api.worldbank.org/v2/country/KE/indicator/GC.XPN.TOTL.GD.ZS
+govt_expenditure_pct_gdp,Government Expenditure (% of GDP),GC.XPN.TOTL.GD.ZS,2022,,https://api.worldbank.org/v2/country/KE/indicator/GC.XPN.TOTL.GD.ZS
+govt_expenditure_pct_gdp,Government Expenditure (% of GDP),GC.XPN.TOTL.GD.ZS,2023,,https://api.worldbank.org/v2/country/KE/indicator/GC.XPN.TOTL.GD.ZS
+govt_expenditure_pct_gdp,Government Expenditure (% of GDP),GC.XPN.TOTL.GD.ZS,2024,,https://api.worldbank.org/v2/country/KE/indicator/GC.XPN.TOTL.GD.ZS
+debt_total,"Central Government Debt, Total (LCU)",GC.DOD.TOTL.CN,2013,,https://api.worldbank.org/v2/country/KE/indicator/GC.DOD.TOTL.CN
+debt_total,"Central Government Debt, Total (LCU)",GC.DOD.TOTL.CN,2014,,https://api.worldbank.org/v2/country/KE/indicator/GC.DOD.TOTL.CN
+debt_total,"Central Government Debt, Total (LCU)",GC.DOD.TOTL.CN,2015,,https://api.worldbank.org/v2/country/KE/indicator/GC.DOD.TOTL.CN
+debt_total,"Central Government Debt, Total (LCU)",GC.DOD.TOTL.CN,2016,,https://api.worldbank.org/v2/country/KE/indicator/GC.DOD.TOTL.CN
+debt_total,"Central Government Debt, Total (LCU)",GC.DOD.TOTL.CN,2017,,https://api.worldbank.org/v2/country/KE/indicator/GC.DOD.TOTL.CN
+debt_total,"Central Government Debt, Total (LCU)",GC.DOD.TOTL.CN,2018,,https://api.worldbank.org/v2/country/KE/indicator/GC.DOD.TOTL.CN
+debt_total,"Central Government Debt, Total (LCU)",GC.DOD.TOTL.CN,2019,,https://api.worldbank.org/v2/country/KE/indicator/GC.DOD.TOTL.CN
+debt_total,"Central Government Debt, Total (LCU)",GC.DOD.TOTL.CN,2020,,https://api.worldbank.org/v2/country/KE/indicator/GC.DOD.TOTL.CN
+debt_total,"Central Government Debt, Total (LCU)",GC.DOD.TOTL.CN,2021,,https://api.worldbank.org/v2/country/KE/indicator/GC.DOD.TOTL.CN
+debt_total,"Central Government Debt, Total (LCU)",GC.DOD.TOTL.CN,2022,,https://api.worldbank.org/v2/country/KE/indicator/GC.DOD.TOTL.CN
+debt_total,"Central Government Debt, Total (LCU)",GC.DOD.TOTL.CN,2023,,https://api.worldbank.org/v2/country/KE/indicator/GC.DOD.TOTL.CN
+debt_total,"Central Government Debt, Total (LCU)",GC.DOD.TOTL.CN,2024,,https://api.worldbank.org/v2/country/KE/indicator/GC.DOD.TOTL.CN

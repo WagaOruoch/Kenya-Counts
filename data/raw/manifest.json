@@ -1,5 +1,48 @@
 {
   "description": "Manifest of all scraped data files. Updated automatically after each scrape run.",
-  "last_updated": null,
-  "files": []
+  "last_updated": "2026-03-02T13:43:48.128126+00:00",
+  "files": [
+    {
+      "scraper": "kra_revenue",
+      "filename": "revenue_annual.csv",
+      "url": "https://www.kra.go.ke/revenue-statistics",
+      "description": "KRA annual tax revenue — target vs actual (KSh billions)",
+      "scraped_at": "2026-03-02T13:42:53.799299+00:00"
+    },
+    {
+      "scraper": "treasury_budget",
+      "filename": "budget_allocations.csv",
+      "url": "https://www.treasury.go.ke/budget-policy-statement/",
+      "description": "National budget allocations by sector (KSh billions)",
+      "scraped_at": "2026-03-02T13:42:57.395002+00:00"
+    },
+    {
+      "scraper": "debt_cbk",
+      "filename": "public_debt.csv",
+      "url": "https://www.centralbank.go.ke/public-debt/",
+      "description": "Public debt stock and servicing costs (KSh billions)",
+      "scraped_at": "2026-03-02T13:43:12.918878+00:00"
+    },
+    {
+      "scraper": "county_allocations",
+      "filename": "equitable_share.csv",
+      "url": "https://www.crakenya.org/information/revenue-allocation/",
+      "description": "County equitable share allocations — 11 fiscal years × 47 counties",
+      "scraped_at": "2026-03-02T13:43:22.934426+00:00"
+    },
+    {
+      "scraper": "cob_expenditure",
+      "filename": "county_expenditure.csv",
+      "url": "https://cob.go.ke/reports/county-governments-budget-implementation-review-reports/",
+      "description": "County government expenditure vs allocation (from CoB reports or estimated)",
+      "scraped_at": "2026-03-02T13:43:38.922111+00:00"
+    },
+    {
+      "scraper": "knbs_indicators",
+      "filename": "county_indicators.csv",
+      "url": "https://www.knbs.or.ke/publications/",
+      "description": "County-level health, education, poverty indicators",
+      "scraped_at": "2026-03-02T13:43:48.128126+00:00"
+    }
+  ]
 }
